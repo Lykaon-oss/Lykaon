@@ -1,0 +1,9 @@
+A point has x as number and y as number.
+A point can compare.
+    Changeable order is no.
+    If x of left is less than x of right.
+        Set order to yes.
+    Give back order.
+P is a point with x 1 and y 2.
+Q is a point with x 3 and y 4.
+Say if p is less than q.

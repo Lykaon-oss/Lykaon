@@ -1,0 +1,6 @@
+Error: Look at covers cash more than once. (T0321)
+Where: tests/conformance/m2/errors/t0321/input.lykaon, line 6: When cash.
+                                                               ^^^^^^^^^^
+Why: Two When blocks handle cash.
+Fix: One When block per shape.
+

@@ -1,0 +1,7 @@
+To halve n.
+    Requires n is more than 0.
+    Ensures result is more than 0.
+    Give back n divided by 2.
+Say halve 8.
+Say halve 10.
+Say halve 4.

@@ -1,0 +1,6 @@
+Error: A call gives more or fewer inputs than the function has. (T0126)
+Where: tests/conformance/m1b/errors/ch15_wrong_inputs/input.lykaon, line 2: Say double 1 with 2.
+                                                                            ^^^^^^^^^^^^^^^^^^^^
+Why: A call gives more or fewer inputs than the function has.
+Fix: Match the inputs of the function.
+

@@ -1,0 +1,6 @@
+Error: Hard word in a name. (T0101)
+Where: tests/conformance/m1a/errors/t0101_hard_word/input.lykaon, line 1: Plus is 5.
+                                                                          ^^^^
+Why: A word with a fixed meaning is used in a name.
+Fix: Choose another name.
+

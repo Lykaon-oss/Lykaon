@@ -1,0 +1,6 @@
+Warning: Extra spaces. (T0023)
+Where: tests/conformance/m1a/warn/t0023_extra_spaces/input.lykaon, line 1: Say  hi.
+                                                                              ^^
+Why: More than one space between words outside raw text.
+Fix: Run lykaon fmt.
+

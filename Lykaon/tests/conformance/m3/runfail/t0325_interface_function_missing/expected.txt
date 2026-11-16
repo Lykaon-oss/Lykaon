@@ -1,0 +1,2 @@
+Error: A dog has no speak although it can speak. (T0325)
+Fix: Give the kind an impl block, or use the default.

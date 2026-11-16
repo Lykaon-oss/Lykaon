@@ -1,0 +1,6 @@
+Error: Name starts with a digit. (T0011)
+Where: tests/conformance/m1a/errors/t0011_digit_name/input.lykaon, line 1: 2nd place is 5.
+                                                                            ^
+Why: A name begins with a digit.
+Fix: Begin the name with a letter.
+

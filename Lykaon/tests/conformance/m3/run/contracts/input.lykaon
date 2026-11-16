@@ -1,0 +1,13 @@
+To halve n can fail.
+    If n is 0 fail with zero cannot be halved.
+    Give back n divided by 2.
+
+Try halve 8.
+    Say it.
+If that fails.
+    Say could not halve.
+
+Try halve 0.
+    Say it.
+If that fails.
+    Say could not halve.

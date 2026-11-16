@@ -1,0 +1,17 @@
+Line is cat sat down.
+Say how many in line.
+Say café backwards.
+Words is list of apple and pear and plum.
+Say words joined with comma.
+Say words joined with nothing.
+Say words joined with newline.
+Parts is split line at space.
+Say parts.
+Say upper of line.
+Say lower of HELLO.
+Spot is position of sat in line.
+Say spot fallback 0.
+New line is replace cat with dog in line.
+Say new line.
+Phrase is call 555 now.
+Say replace one or more digits with x in phrase.

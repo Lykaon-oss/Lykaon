@@ -1,0 +1,6 @@
+Error: Nesting too deep. (T0004)
+Where: tests/conformance/m1a/errors/t0004_nesting/input.lykaon, line 34:                                                                                                                                     Say a.
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: Blocks are nested deeper than 32 levels.
+Fix: Move inner blocks into functions.
+

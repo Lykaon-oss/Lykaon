@@ -1,0 +1,17 @@
+To jsonparse n as whole number.
+    If n is at most 0.
+        Give back 1 as whole number.
+    Otherwise if n is at most 1.
+        Give back 3 as whole number.
+    Changeable n1 is n minus 1.
+    Changeable n2 is n minus 2.
+    Changeable n3 is n minus 3.
+    Changeable v1 is jsonparse n1.
+    Changeable v2 is jsonparse n2.
+    Changeable v3 is jsonparse n3.
+    Changeable s1 is v1 plus v2.
+    Changeable s2 is s1 plus v3.
+    Changeable n2x is n plus n.
+    Changeable s3 is s2 plus n2x.
+    Give back s3 as whole number.
+Say jsonparse 32.

@@ -1,0 +1,9 @@
+To fib n as whole number.
+    If n is at most 1.
+        Give back n as whole number.
+    Changeable na is n minus 1.
+    Changeable nb is fib na.
+    Changeable nc is n minus 2.
+    Changeable nd is fib nc.
+    Give back nb plus nd as whole number.
+Say fib 42.

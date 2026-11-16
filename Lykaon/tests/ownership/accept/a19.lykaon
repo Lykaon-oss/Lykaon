@@ -1,0 +1,6 @@
+To pick items give zero.
+    For each n in items.
+        If n is more than 2.
+            Give back n.
+    Give back 0.
+Say pick list of 1 and 5.

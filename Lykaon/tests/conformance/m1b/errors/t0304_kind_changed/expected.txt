@@ -1,0 +1,6 @@
+Error: count is set to a value of a different kind. (T0304)
+Where: tests/conformance/m1b/errors/t0304_kind_changed/input.lykaon, line 2: Set count to 2.5.
+                                                                                 ^^^^^
+Why: A name is set to a value of a different kind.
+Fix: Keep one kind.
+

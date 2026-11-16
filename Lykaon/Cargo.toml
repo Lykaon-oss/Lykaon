@@ -1,0 +1,50 @@
+[workspace]
+members = [".", "core", "rt"]
+
+[package]
+name = "lykaon"
+version = "0.1.0"
+edition = "2024"
+
+# The two command-line fronts, renamed so the GUI can own the short names:
+#   lykaon-cli  - the interpreter/REPL CLI (src/bin/lykaon.rs)
+#   lykaonc-cli - the compiler CLI (src/main.rs)
+# Both share src/cli.rs. The original lykaon/lykaonc code is unchanged;
+# only the executable name changed.
+[[bin]]
+name = "lykaonc-cli"
+path = "src/main.rs"
+
+[[bin]]
+name = "lykaon-cli"
+path = "src/bin/lykaon.rs"
+
+[dependencies]
+# TLS is optional here too and forwarded to lykaon-core's "tls" feature:
+# the native runtime (lykaon-rt) builds this crate without TLS, because the
+# C parts of the TLS stack do not link in the static-CRT exe link.
+lykaon-core = { path = "core", default-features = false }
+unicode-normalization = "0.1.26"
+unicode-segmentation = "1.13.3"
+cranelift-codegen = "0.125"
+cranelift-frontend = "0.125"
+cranelift-module = "0.125"
+cranelift-object = "0.125"
+cranelift-native = "0.125"
+target-lexicon = "0.13"
+serde_json = "1.0"
+# M4-11: the git dependency content checksum in lykaon.lock (T0520's
+# "its checksum differs"); sha2 is already in the lock through lykaon-core.
+sha2 = "0.10"
+object = "0.37"
+flate2 = "1"
+# M3b-5 pass 2: Z3 SMT re-check for Ensures conds the interval pass finds
+# Unknown. OFF by default: the plain `cargo build` never touches Z3.
+z3 = { version = "0.12", optional = true }
+
+[features]
+default = ["tls"]
+smt = ["dep:z3"]
+tls = ["lykaon-core/tls"]
+
+[dev-dependencies]

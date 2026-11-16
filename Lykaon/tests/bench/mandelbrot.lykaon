@@ -1,0 +1,14 @@
+To mandel n as whole number.
+    If n is at most 0.
+        Give back 1 as whole number.
+    Otherwise if n is at most 1.
+        Give back 2 as whole number.
+    Changeable n1 is n minus 1.
+    Changeable n2 is n minus 2.
+    Changeable v1 is mandel n1.
+    Changeable v2 is mandel n2.
+    Changeable s1 is v2 plus v2.
+    Changeable s2 is v1 plus s1.
+    Changeable s3 is s2 plus n.
+    Give back s3 as whole number.
+Say mandel 40.

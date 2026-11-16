@@ -1,0 +1,2 @@
+Error: A Look at ran on a value that holds no shape. (T0606)
+Fix: Look at a value from an enum.

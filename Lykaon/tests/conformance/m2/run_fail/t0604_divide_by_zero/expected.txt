@@ -1,0 +1,2 @@
+Error: A whole number was divided by zero. (T0604)
+Fix: Check the divisor.

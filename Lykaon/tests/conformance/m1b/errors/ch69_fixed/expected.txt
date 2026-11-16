@@ -1,0 +1,6 @@
+Error: price is fixed and cannot be changed. (T0406)
+Where: tests/conformance/m1b/errors/ch69_fixed/input.lykaon, line 2: Set price to 25.
+                                                                         ^^^^^
+Why: price was defined without Changeable.
+Fix: Define it as Changeable price is <first value>.
+

@@ -1,0 +1,6 @@
+Error: Article used as a name. (T0104)
+Where: tests/conformance/m1a/errors/t0104_article_name/input.lykaon, line 1: Changeable a is 5.
+                                                                             ^
+Why: A name is a, an or the, which are removed from code.
+Fix: Choose another name.
+

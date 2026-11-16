@@ -1,0 +1,6 @@
+Text age is 31 as text.
+Real age is text age as number.
+If that fails use 0.
+Say real age plus 1.
+Word is 42 as text.
+Say how many in word.

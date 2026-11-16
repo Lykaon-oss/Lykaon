@@ -1,0 +1,12 @@
+Error: Odd indentation. (T0002)
+Where: tests/conformance/m1a/errors/t0002_odd_indent/input.lykaon, line 2:    Say adult.
+                                                                           ^^^
+Why: Indentation is not a multiple of 4 spaces.
+Fix: Indent by exactly 4 spaces per level.
+
+Error: Block opener without a block. (T0014)
+Where: tests/conformance/m1a/errors/t0002_odd_indent/input.lykaon, line 1: If age is at least 18.
+                                                                                                 ^
+Why: A line ends with a period like an opener, and nothing is indented under it.
+Fix: Indent the sentences that belong under it.
+

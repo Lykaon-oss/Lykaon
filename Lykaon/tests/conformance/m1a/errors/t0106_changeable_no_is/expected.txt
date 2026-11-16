@@ -1,0 +1,6 @@
+Error: Definition without is. (T0106)
+Where: tests/conformance/m1a/errors/t0106_changeable_no_is/input.lykaon, line 1: Changeable price 20.
+                                                                                   ^
+Why: A sentence begins with a name but has no is.
+Fix: Write Name is value.
+

@@ -1,0 +1,4 @@
+Changeable total is 0.
+Repeat 5 times.
+    Set total to total plus 1.
+Say total.

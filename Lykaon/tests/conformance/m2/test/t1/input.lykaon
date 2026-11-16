@@ -1,0 +1,11 @@
+To double n give n times 2.
+Test double works.
+    Check that double 21 is 42.
+    Check that double 0 is 0.
+To halve n can fail.
+    If n is 0.
+        Fail with zero.
+    Give back n whole divided by 2.
+Test halving zero fails.
+    Check that this fails.
+        Say halve 0.

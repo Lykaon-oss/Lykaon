@@ -1,0 +1,6 @@
+Error: Try wraps a sentence that cannot fail. (T0151)
+Where: tests/conformance/m2/errors/t0151/input.lykaon, line 1: Try Say hello.
+                                                               ^^^^^^^^^^^^^^
+Why: Say, and most sentences, cannot fail.
+Fix: Remove Try, or wrap a sentence that can fail.
+

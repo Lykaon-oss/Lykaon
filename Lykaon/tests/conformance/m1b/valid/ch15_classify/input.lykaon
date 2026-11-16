@@ -1,0 +1,6 @@
+To classify n.
+    If n is less than 0 give back negative.
+    If n is 0 give back zero.
+    Give back positive.
+Say classify 5.
+Say classify minus 2.

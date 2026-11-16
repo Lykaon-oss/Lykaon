@@ -1,0 +1,6 @@
+Error: Part kind differs. (T0309)
+Where: tests/conformance/m2/errors/t0309_part_kind/input.lykaon, line 2: Maya is a person with name Maya and age hello.
+                                                                                                                 ^^^^^
+Why: A part of a record has the wrong kind.
+Fix: Use the declared kind.
+

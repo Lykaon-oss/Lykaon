@@ -1,0 +1,6 @@
+Error: Unknown tag. (T0162)
+Where: tests/conformance/m1b/errors/t0162_unknown_tag/input.lykaon, line 4: To f n give n.
+                                                                            ^^^^^^^^^^^^^^
+Why: A tag other than test, deprecated or slow is not defined.
+Fix: Use a listed tag.
+

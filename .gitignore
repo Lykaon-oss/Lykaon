@@ -1,0 +1,36 @@
+# Build outputs
+build/
+target/
+**/target/
+*.exe
+*.lib
+*.obj
+*.o
+*.a
+*.pdb
+*.ilk
+*.elf
+*.rlib
+*.dll
+
+# Fuzz / test scratch state
+fuzz_state/
+*.enf
+
+# Node / package artifacts
+node_modules/
+package-lock.json
+*.vsix
+
+# Secrets and credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.pfx
+credentials*.json
+secrets*
+
+# Release staging (uploaded as GitHub Release assets, not repo content)
+release/

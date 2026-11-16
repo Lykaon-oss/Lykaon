@@ -1,0 +1,7 @@
+Score is 85.
+If score is at least 90.
+    Say excellent.
+Otherwise if score is at least 60.
+    Say good.
+Otherwise.
+    Say try again.

@@ -1,0 +1,6 @@
+Error: Hand back outside a function. (T0116)
+Where: tests/conformance/m1a/errors/t0116_hand_back/input.lykaon, line 1: Hand back 5.
+                                                                          ^^^^^^^^^^^^
+Why: Hand back is not inside a function.
+Fix: Put it inside a generator function.
+

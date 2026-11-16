@@ -1,0 +1,6 @@
+Error: digits is a pattern word used outside replace, position of or split. (T0153)
+Where: tests/conformance/m2/errors/t0153/input.lykaon, line 1: Say digits.
+                                                               ^^^^^^^^^^^
+Why: digits, letters, optional and the like are used outside a text pattern.
+Fix: Use them only in replace, position of or split.
+

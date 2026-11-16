@@ -1,0 +1,5 @@
+Numbers is list of 10 and 20 and 30.
+Changeable total is 0.
+For each n in Numbers.
+    Set total to total plus n.
+Say total.

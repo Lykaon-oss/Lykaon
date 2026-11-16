@@ -1,0 +1,9 @@
+To binary n as whole number.
+    If n is at most 0.
+        Give back 1 as whole number.
+    Changeable na is n minus 1.
+    Changeable nb is binary na.
+    Changeable nc is binary na.
+    Give back nb plus nc as whole number.
+
+Say binary 6.

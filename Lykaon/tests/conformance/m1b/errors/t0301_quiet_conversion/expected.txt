@@ -1,0 +1,6 @@
+Error: A value of one kind is used where another is needed. (T0301)
+Where: tests/conformance/m1b/errors/t0301_quiet_conversion/input.lykaon, line 1: Total is text plus 1.
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^
+Why: A value of one kind is used where another is needed.
+Fix: Convert it with as.
+

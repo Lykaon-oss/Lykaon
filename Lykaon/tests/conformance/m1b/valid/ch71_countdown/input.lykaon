@@ -1,0 +1,5 @@
+Changeable n is 3.
+Repeat while n is more than 0.
+    Say n.
+    Set n to n minus 1.
+Say liftoff.

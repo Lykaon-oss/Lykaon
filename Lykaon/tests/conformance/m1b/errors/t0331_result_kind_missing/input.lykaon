@@ -1,0 +1,4 @@
+To sumto n as whole number.
+    If n is 0 give back 0.
+    Smaller is n minus 1.
+    Give back n plus sumto smaller.

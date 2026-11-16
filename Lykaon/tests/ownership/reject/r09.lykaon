@@ -1,0 +1,6 @@
+A box has items as list of numbers and tag as text.
+To stash items.
+    B is a box with items items and tag x.
+    Give back 1.
+Changeable nums is list of 5 and 2.
+Say stash nums.

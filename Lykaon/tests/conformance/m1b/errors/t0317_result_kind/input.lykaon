@@ -1,0 +1,5 @@
+To classify n.
+    If n is at least 0.
+        Give back positive.
+    Otherwise.
+        Give back 0.

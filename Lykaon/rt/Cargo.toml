@@ -1,0 +1,13 @@
+[package]
+name = "lykaon-rt"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[dependencies]
+# no TLS in the native runtime: the C TLS dependency would break the
+# static-CRT exe link (logged); native Serve without certificates works
+lykaon-core = { path = "../core", default-features = false }
+lykaon = { path = "..", default-features = false }

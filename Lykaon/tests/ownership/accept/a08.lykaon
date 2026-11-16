@@ -1,0 +1,4 @@
+A box has items as list of numbers and tag as text.
+Nums is list of 5 and 2.
+B is a box with items Nums and tag stuff.
+Say how many in items of b.

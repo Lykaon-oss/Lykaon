@@ -1,0 +1,6 @@
+Error: Two unique borrows of one value are live at once. (T0403)
+Where: tests/conformance/m2/errors/t0403_two_writers/input.lykaon, line 4: Say blend total with total.
+                                                                           ^
+Why: one name passed to two lend to change inputs
+Fix: Use one borrow at a time.
+

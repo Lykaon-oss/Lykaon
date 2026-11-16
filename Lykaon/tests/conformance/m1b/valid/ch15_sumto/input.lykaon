@@ -1,0 +1,6 @@
+To sumto n as whole number.
+    If n is 0 give back 0 as whole number.
+    Smaller is n minus 1.
+    Later is sumto smaller.
+    Give back n plus later as whole number.
+Say sumto 4.

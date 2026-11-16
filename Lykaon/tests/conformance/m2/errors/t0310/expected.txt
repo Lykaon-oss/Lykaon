@@ -1,0 +1,6 @@
+Error: phone may be missing. Ask If phone is there, or use phone fallback 0. (T0310)
+Where: tests/conformance/m2/errors/t0310/input.lykaon, line 2: Next phone is phone plus 1.
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: phone may be missing.
+Fix: Ask If phone is there, or use phone fallback 0.
+

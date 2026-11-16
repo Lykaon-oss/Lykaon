@@ -1,0 +1,50 @@
+Numbers is list of 5 and 2 and 8.
+Say numbers.
+Names is empty list of text.
+Say if names is empty.
+Say item 2 of numbers.
+Say first 2 of numbers.
+Say last of numbers.
+Say items 2 to 3 of numbers.
+Say how many in numbers.
+Spot is position of 8 in numbers.
+Say spot fallback 0.
+Changeable nums is list of 5 and 2 and 8.
+Add 9 to nums.
+Remove 2 from nums.
+Say nums.
+Say numbers sorted.
+Say numbers sorted descending.
+Say numbers reversed.
+Say 3 and 3 and 4 unique.
+Changeable ages is map of text to number.
+Put 31 in ages under Maya.
+Put 27 in ages under Omar.
+Say how many in ages.
+Found is value of Maya in ages.
+Say found fallback 0.
+Guess is value of Zed in ages.
+Say guess fallback 0.
+Say if ages has Maya.
+For each name and age in ages.
+    Say name age.
+Remove Maya from ages.
+Say how many in ages.
+Changeable tags is set of text.
+Put red in tags.
+Put blue in tags.
+Put red in tags.
+Say how many in tags.
+Changeable left is set of number.
+Put 1 in left.
+Put 2 in left.
+Put 3 in left.
+Changeable right is set of number.
+Put 3 in right.
+Put 4 in right.
+Say union of left and right.
+Say overlap of left and right.
+Say difference of left and right.
+Pair is pair of 1 and 2.
+Say first of pair.
+Say second of pair.

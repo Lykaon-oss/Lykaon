@@ -1,0 +1,6 @@
+Error: When card has the wrong number of names. (T0322)
+Where: tests/conformance/m2/errors/t0322/input.lykaon, line 6: When card owner limit.
+                                                               ^^^^^^^^^^^^^^^^^^^^^^
+Why: card carries 1 parts, so When card takes 1 names.
+Fix: Write When card with one name per part.
+

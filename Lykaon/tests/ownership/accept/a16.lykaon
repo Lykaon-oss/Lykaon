@@ -1,0 +1,6 @@
+To consume give items can fail.
+    Give back how many in items.
+Nums is list of 1 and 2.
+Try consume nums.
+If that fails.
+    Say failed.

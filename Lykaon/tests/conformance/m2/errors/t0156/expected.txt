@@ -1,0 +1,6 @@
+Error: Check is used outside a Test. (T0156)
+Where: tests/conformance/m2/errors/t0156/input.lykaon, line 1: Check that 1 is 2.
+                                                               ^^^^^^^^^^^^^^^^^^
+Why: A check asserts something while a test runs.
+Fix: Move Check inside a Test block.
+

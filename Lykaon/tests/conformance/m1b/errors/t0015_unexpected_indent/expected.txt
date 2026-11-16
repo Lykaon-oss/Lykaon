@@ -1,0 +1,6 @@
+Error: Unexpected indent. (T0015)
+Where: tests/conformance/m1b/errors/t0015_unexpected_indent/input.lykaon, line 2: Say hi.
+                                                                                  ^^^^
+Why: A line is indented but no sentence above opens a block.
+Fix: Remove the indentation.
+

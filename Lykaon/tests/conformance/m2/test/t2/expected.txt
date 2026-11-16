@@ -1,0 +1,4 @@
+pretend works. passed
+double really works. passed
+wrong. failed
+    Check that 1 is 2. failed. (they were 1 and 2)

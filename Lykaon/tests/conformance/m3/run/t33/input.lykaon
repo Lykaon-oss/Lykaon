@@ -1,0 +1,7 @@
+To countdown n as whole number.
+    If n is at most 0.
+        Give back 0 as whole number.
+    Changeable m is n minus 1.
+    Give back countdown m as whole number.
+
+Say countdown 3.

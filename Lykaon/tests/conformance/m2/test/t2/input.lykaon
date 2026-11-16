@@ -1,0 +1,8 @@
+To double n give n times 2.
+Test pretend works.
+    Pretend double gives 7.
+    Check that double 21 is 7.
+Test double really works.
+    Check that double 21 is 42.
+Test wrong.
+    Check that 1 is 2.

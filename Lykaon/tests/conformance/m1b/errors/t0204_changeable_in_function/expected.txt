@@ -1,0 +1,6 @@
+Error: A call gives more or fewer inputs than the function has. (T0126)
+Where: tests/conformance/m1b/errors/t0204_changeable_in_function/input.lykaon, line 3: Say f.
+                                                                                       ^^^^^^
+Why: A call gives more or fewer inputs than the function has.
+Fix: Match the inputs of the function.
+

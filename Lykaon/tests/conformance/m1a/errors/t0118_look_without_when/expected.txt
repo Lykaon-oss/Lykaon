@@ -1,0 +1,6 @@
+Error: Look at without When. (T0118)
+Where: tests/conformance/m1a/errors/t0118_look_without_when/input.lykaon, line 2: Look at pay.
+                                                                                  ^^^^^^^^^^^^
+Why: Look at has no When block.
+Fix: Add a When block for each shape.
+

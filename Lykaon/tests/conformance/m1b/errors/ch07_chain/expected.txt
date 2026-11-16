@@ -1,0 +1,6 @@
+Error: A sentence can hold one operation. Write each step on its own line. (T0109)
+Where: tests/conformance/m1b/errors/ch07_chain/input.lykaon, line 1: Answer is 2 plus 3 times 4.
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: A sentence chains two operations.
+Fix: Write each step in its own sentence.
+

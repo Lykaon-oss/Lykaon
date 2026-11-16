@@ -1,0 +1,6 @@
+Error: Stop outside a loop. (T0113)
+Where: tests/conformance/m1a/errors/t0113_stop_loop/input.lykaon, line 1: Stop.
+                                                                          ^^^^
+Why: Stop. is not inside a loop.
+Fix: Use it inside Repeat or For each.
+

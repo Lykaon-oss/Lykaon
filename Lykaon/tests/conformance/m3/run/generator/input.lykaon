@@ -1,0 +1,5 @@
+To squares n
+    For each i from 1 to n.
+        Hand back i times i.
+
+Say first 3 of squares 5.

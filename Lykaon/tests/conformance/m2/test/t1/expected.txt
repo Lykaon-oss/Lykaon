@@ -1,0 +1,2 @@
+double works. passed
+halving zero fails. passed

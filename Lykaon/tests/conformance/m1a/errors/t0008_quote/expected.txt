@@ -1,0 +1,6 @@
+Error: Quote in code. (T0008)
+Where: tests/conformance/m1a/errors/t0008_quote/input.lykaon, line 1: Quote is "Maya".
+                                                                               ^
+Why: A quote mark is used in code. Lykaon has no quoted text.
+Fix: Write the word without quotes.
+

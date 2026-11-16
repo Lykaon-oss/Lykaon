@@ -1,0 +1,6 @@
+Error: A whole number and a decimal cannot meet in one operation. Write 3 as decimal. (T0302)
+Where: tests/conformance/m1b/errors/ch17_mix_kinds/input.lykaon, line 1: Say 3 plus 0.5.
+                                                                         ^^^^^^^^^^^^^^^
+Why: A whole number and a decimal meet in one operation.
+Fix: Write 3 as decimal.
+

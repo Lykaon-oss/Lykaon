@@ -1,0 +1,6 @@
+Error: sumto must state the kinds of its inputs. (T0330)
+Where: tests/conformance/m1b/errors/t0330_input_kinds_missing/input.lykaon, line 1: To sumto n.
+                                                                                       ^^^^^
+Why: A shared function, an interface function, or a recursive function must state the kind of each input.
+Fix: Write as <kind> after each input.
+

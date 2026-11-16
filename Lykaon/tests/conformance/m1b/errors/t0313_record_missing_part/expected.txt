@@ -1,0 +1,6 @@
+Error: A person is made without a part called age. (T0313)
+Where: tests/conformance/m1b/errors/t0313_record_missing_part/input.lykaon, line 2: Maya is a person with name Maya.
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: A record is made with every part given, once each.
+Fix: Add age and its value.
+

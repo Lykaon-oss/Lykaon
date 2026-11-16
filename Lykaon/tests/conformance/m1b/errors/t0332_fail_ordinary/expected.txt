@@ -1,0 +1,6 @@
+Error: Fail with is used in a function not declared can fail. (T0332)
+Where: tests/conformance/m1b/errors/t0332_fail_ordinary/input.lykaon, line 2: Fail with oops.
+                                                                              ^^^^^^^^^^^^^^^
+Why: Fail with is allowed only in a function that says can fail.
+Fix: Declare the function can fail.
+

@@ -1,0 +1,18 @@
+Error: A tab is not allowed. Use 4 spaces. (T0001)
+Where: tests/conformance/m1a/errors/t0001_tab/input.lykaon, line 2: 	Say adult.
+                                                                    ^
+Why: A line is indented with a tab character.
+Fix: Use 4 spaces for each level.
+
+Error: Block opener without a block. (T0014)
+Where: tests/conformance/m1a/errors/t0001_tab/input.lykaon, line 1: If age is at least 18.
+                                                                                          ^
+Why: A line ends with a period like an opener, and nothing is indented under it.
+Fix: Indent the sentences that belong under it.
+
+Error: No action word. (T0110)
+Where: tests/conformance/m1a/errors/t0001_tab/input.lykaon, line 2: 	Say adult.
+                                                                    ^
+Why: The first word of a sentence is not an action word, a declaration word or a defined name.
+Fix: Start with an action word.
+

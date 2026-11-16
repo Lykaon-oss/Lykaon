@@ -1,0 +1,3 @@
+A person has name as text and age as whole number.
+    Always age of value is at least 0.
+Changeable bad is a person with name Bad and age 0 minus 5.

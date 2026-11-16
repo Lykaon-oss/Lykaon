@@ -1,0 +1,6 @@
+Error: Task outlives its block. (T0462)
+Where: tests/conformance/m1a/errors/t0462_task_outlives_its_block/input.lykaon, line 4: Add looker to watchers.
+                                                                                            ^^^^^^
+Why: A task name or a task handle is returned or stored outside its block.
+Fix: Wait for it inside the block.
+

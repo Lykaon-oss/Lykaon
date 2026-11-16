@@ -1,0 +1,6 @@
+Error: red car seat can mean red car or car seat. (T0120)
+Where: tests/conformance/m1a/errors/t0120_ambiguous_name/input.lykaon, line 3: Say red car seat.
+                                                                                   ^^^^^^^
+Why: Two different names of the same length fit the words.
+Fix: Rename one of them.
+

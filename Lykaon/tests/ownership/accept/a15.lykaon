@@ -1,0 +1,4 @@
+Changeable ages is map of number to number.
+For each n from 1 to 2.
+    Put n in ages under n.
+Say how many in ages.

@@ -1,0 +1,2 @@
+Error: Remove first from an empty tasks. (T0613)
+Fix: Test with is empty first.

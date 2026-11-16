@@ -1,0 +1,6 @@
+Error: Pass failure up. is not inside a function that can fail. (T0117)
+Where: tests/conformance/m1a/errors/t0117_pass_failure_up/input.lykaon, line 2: Pass failure up.
+                                                                                ^^^^^^^^^^^^^^^^
+Why: Pass failure up. is allowed only inside a function that can fail.
+Fix: Declare the function can fail.
+

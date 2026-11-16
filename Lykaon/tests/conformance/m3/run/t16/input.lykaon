@@ -1,0 +1,4 @@
+Tagged slow.
+To slowfunc x give back x times 2.
+
+Say slowfunc 21.

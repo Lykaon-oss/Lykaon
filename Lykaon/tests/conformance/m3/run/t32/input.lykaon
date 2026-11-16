@@ -1,0 +1,4 @@
+Changeable x is 10.
+Repeat while x is more than 0.
+    Set x to x minus 1.
+Say x.

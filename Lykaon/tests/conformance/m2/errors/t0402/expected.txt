@@ -1,0 +1,6 @@
+Error: numbers is being read by the loop, so it cannot be changed inside it. (T0402)
+Where: tests/conformance/m2/errors/t0402/input.lykaon, line 2: For each n in numbers.
+                                                               ^
+Why: A value is changed while a loop or borrow is reading it.
+Fix: Loop over copy of numbers, or collect the changes and add them after the loop.
+

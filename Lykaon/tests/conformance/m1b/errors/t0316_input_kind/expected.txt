@@ -1,0 +1,6 @@
+Error: Input kind differs. (T0316)
+Where: tests/conformance/m1b/errors/t0316_input_kind/input.lykaon, line 2: Say double hello.
+                                                                           ^^^^^^^^^^^^^^^^^
+Why: An input is of a kind the function does not accept.
+Fix: Give the right kind.
+

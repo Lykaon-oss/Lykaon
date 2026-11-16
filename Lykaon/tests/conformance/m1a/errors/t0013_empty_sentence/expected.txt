@@ -1,0 +1,12 @@
+Error: Empty sentence. (T0013)
+Where: tests/conformance/m1a/errors/t0013_empty_sentence/input.lykaon, line 1: .
+                                                                               ^
+Why: A line holds only a period.
+Fix: Remove the line.
+
+Error: No action word. (T0110)
+Where: tests/conformance/m1a/errors/t0013_empty_sentence/input.lykaon, line 1: .
+                                                                               ^
+Why: The first word of a sentence is not an action word, a declaration word or a defined name.
+Fix: Start with an action word.
+

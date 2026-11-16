@@ -1,0 +1,7 @@
+A payment is cash or card with owner as text.
+Pay is card with owner Maya.
+Look at pay.
+    When cash.
+        Say paid in cash.
+    When card owner limit.
+        Say too many.

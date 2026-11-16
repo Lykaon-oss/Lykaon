@@ -1,0 +1,5 @@
+Age is 20.
+If age is at least 18.
+    Say adult.
+Otherwise.
+    Say minor.

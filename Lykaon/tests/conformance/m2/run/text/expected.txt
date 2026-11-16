@@ -1,0 +1,13 @@
+12
+éfac
+apple,pear,plum
+applepearplum
+apple
+pear
+plum
+cat, sat and down
+CAT SAT DOWN
+hello
+5
+dog sat down
+call x now

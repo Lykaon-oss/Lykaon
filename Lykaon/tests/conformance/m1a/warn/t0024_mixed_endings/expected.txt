@@ -1,0 +1,6 @@
+Warning: Mixed line endings. (T0024)
+Where: tests/conformance/m1a/warn/t0024_mixed_endings/input.lykaon, line 1: Say hi.
+                                                                            ^
+Why: The file uses both LF and CRLF.
+Fix: Run lykaon fmt.
+

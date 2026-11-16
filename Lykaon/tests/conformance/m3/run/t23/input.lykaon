@@ -1,0 +1,12 @@
+Anything that can speak must have speak.
+A dog has name as text.
+A cat has name as text.
+A dog can speak.
+    To speak pet give woof.
+A cat can speak.
+    To speak pet give meow.
+Rex is a dog with name Rex.
+Tom is a cat with name Tom.
+Speakers is list of Rex and Tom.
+For each s in Speakers.
+    Say speak s.

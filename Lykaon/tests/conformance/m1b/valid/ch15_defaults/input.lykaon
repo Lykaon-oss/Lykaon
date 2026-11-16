@@ -1,0 +1,5 @@
+To greet person with greeting defaulting to hello.
+    Pieces is list of greeting and person.
+    Give back pieces joined with space.
+Say greet Maya.
+Say greet Maya with hi.

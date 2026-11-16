@@ -1,0 +1,6 @@
+Error: that can only be used in If that fails, Check that and Anything that can. (T0140)
+Where: tests/conformance/m1a/errors/t0140_that_wrong/input.lykaon, line 1: Say that.
+                                                                            ^^^^
+Why: that is used outside its three phrases.
+Fix: Use that only in the fixed phrases.
+

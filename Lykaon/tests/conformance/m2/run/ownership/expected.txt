@@ -1,0 +1,7 @@
+cmd : Error: cannot read tests\conformance\m2\run\ownership\input.lykaon: The system cannot find the file specified. (os 
+error 2)
+At line:9 char:121
++ ... lykaon"; $out = (cmd /c ".\target\debug\lykaon.exe run $rel" 2>&1 | Out-S ...
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Error: cannot r...d. (os error 2):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError

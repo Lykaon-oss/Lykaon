@@ -1,0 +1,6 @@
+Error: Number spelled as letters. (T0006)
+Where: tests/conformance/m1a/errors/t0006_number_letters/input.lykaon, line 1: Count is five.
+                                                                               ^^^^
+Why: A number is written as a word where a number is expected.
+Fix: Write the number with digits. To make the word a text value, write as text.
+

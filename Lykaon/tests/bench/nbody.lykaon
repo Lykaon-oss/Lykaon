@@ -1,0 +1,11 @@
+To nbody n as whole number.
+    If n is at most 0.
+        Give back 1 as whole number.
+    Changeable na1 is n minus 1.
+    Changeable na2 is n minus 2.
+    Changeable nb is nbody na1.
+    Changeable nc is nbody na2.
+    Changeable s1 is nb plus nc.
+    Changeable s2 is s1 plus n.
+    Give back s2 as whole number.
+Say nbody 40.

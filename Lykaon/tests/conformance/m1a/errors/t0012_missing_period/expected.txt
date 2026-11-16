@@ -1,0 +1,6 @@
+Error: Missing final period. (T0012)
+Where: tests/conformance/m1a/errors/t0012_missing_period/input.lykaon, line 1: Say hello
+                                                                                        ^
+Why: A sentence does not end with a period.
+Fix: Add a period at the end of the line.
+

@@ -1,0 +1,6 @@
+Error: No action word. (T0110)
+Where: tests\conformance\m1a\errors\t0106_no_is\input.lykaon, line 1: Price 20.
+                                                                      ^^^^^
+Why: The first word of a sentence is not an action word, a declaration word or a defined name.
+Fix: Start with an action word.
+

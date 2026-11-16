@@ -1,0 +1,6 @@
+Error: Bad repeat count. (T0122)
+Where: tests/conformance/m1a/errors/t0122_repeat_count/input.lykaon, line 1: Repeat 2.5 times say hi.
+                                                                              ^^^^^
+Why: Repeat has a negative or decimal count.
+Fix: Use a whole number of 0 or more.
+

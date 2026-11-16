@@ -1,0 +1,6 @@
+Error: triple is not shared by helper2. Add Share triple. to helper2.lykaon. (T0208)
+Where: tests/conformance/m2/errors/t0208/input.lykaon, line 2: Say triple 5.
+                                                                   ^^^^^^
+Why: triple belongs to module helper2, which does not share it.
+Fix: Add Share triple. to helper2.lykaon, or use a shared name.
+

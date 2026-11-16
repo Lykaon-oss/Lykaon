@@ -1,0 +1,33 @@
+[package]
+name = "lykaon-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+unicode-normalization = "0.1.26"
+unicode-segmentation = "1.13.3"
+flate2 = "1"
+# M4-7 (Appendix K 7.7): the bundled IANA time-zone database (S51) comes
+# from jiff with tzdb-bundle-always (the same bundled data on Windows and
+# Linux); the civil calendar and the RNG are hand-written.
+jiff = { version = "0.2.42", default-features = false, features = ["std", "tz-system", "tz-fat", "tzdb-bundle-always", "perf-inline"] }
+# M4-7 (S55): SHA-256 for hash of x (moved from the main crate, which
+# carried it unused).
+sha2 = "0.10"
+# M4-8 (Appendix K 7.10, S79): the signal flag setters for When signal
+# ... arrives. - Ctrl+C (interrupt) on both platforms, SIGTERM/SIGHUP
+# (stop/hangup) on Unix only (Windows has no such signals).
+signal-hook = "0.4.6"
+# M4-10 (Appendix K 7.8, S61/S64): TLS for Fetch and Serve - rustls is
+# the TLS library the spec names; webpki-roots carries the bundled root
+# store the client checks certificates against; rustls-pemfile reads the
+# PEM certificate and key files of Serve securely. Optional under the
+# "tls" feature: the native runtime (lykaon-rt) builds without it, because
+# the C parts of the TLS stack do not link in the static-CRT exe link.
+rustls = { version = "0.23", optional = true }
+rustls-pemfile = { version = "2", optional = true }
+webpki-roots = { version = "0.26", optional = true }
+
+[features]
+default = ["tls"]
+tls = ["dep:rustls", "dep:rustls-pemfile", "dep:webpki-roots"]

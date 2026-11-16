@@ -1,0 +1,6 @@
+Error: Contract not first. (T0160)
+Where: tests/conformance/m1b/errors/t0160_contract_not_first/input.lykaon, line 3: Requires n is at least 0.
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: Requires or Ensures is not at the top of the block.
+Fix: Move it up.
+

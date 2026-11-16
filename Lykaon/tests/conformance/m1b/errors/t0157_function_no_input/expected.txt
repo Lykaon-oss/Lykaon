@@ -1,0 +1,6 @@
+Error: Function with no input. (T0157)
+Where: tests/conformance/m1b/errors/t0157_function_no_input/input.lykaon, line 1: To hello give 5.
+                                                                                     ^^^^^
+Why: A function has no input.
+Fix: Give it an input.
+

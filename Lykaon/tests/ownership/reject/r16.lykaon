@@ -1,0 +1,7 @@
+Changeable n is 2.
+X is list of 1 and 2.
+Repeat 2 times.
+    If n is 2.
+        Y is give x.
+    Set n to n minus 1.
+Say how many in x.

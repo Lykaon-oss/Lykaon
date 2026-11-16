@@ -1,0 +1,5 @@
+Changeable n is 0.
+Repeat forever.
+    Set n to n plus 1.
+    If n is 3 stop.
+Say n.

@@ -1,0 +1,6 @@
+Error: Pretend is used outside a Test. (T0155)
+Where: tests/conformance/m2/errors/t0155/input.lykaon, line 2: Pretend f gives 1.
+                                                               ^^^^^^^^^^^^^^^^^^
+Why: Pretend replaces a function only while a test runs.
+Fix: Move Pretend inside a Test block.
+

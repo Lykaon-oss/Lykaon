@@ -1,0 +1,3 @@
+adding zero changes nothing. passed
+impossible. failed
+    Check for any number n. failed for n = -9. (Check that n is 5. failed. (they were -9 and 5))

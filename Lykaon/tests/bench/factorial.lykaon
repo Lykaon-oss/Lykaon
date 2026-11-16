@@ -1,0 +1,7 @@
+To fact n as whole number.
+    If n is at most 1.
+        Give back 1 as whole number.
+    Changeable na is n minus 1.
+    Changeable nb is fact na.
+    Give back n times nb as whole number.
+Say fact 12.

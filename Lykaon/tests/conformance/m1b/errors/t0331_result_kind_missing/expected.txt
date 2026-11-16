@@ -1,0 +1,6 @@
+Error: Result kind missing. (T0331)
+Where: tests/conformance/m1b/errors/t0331_result_kind_missing/input.lykaon, line 1: To sumto n as whole number.
+                                                                                       ^^^^^
+Why: A recursive function does not state its result kind.
+Fix: End it with as whole number.
+

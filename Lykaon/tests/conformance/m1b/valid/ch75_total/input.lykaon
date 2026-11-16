@@ -1,0 +1,4 @@
+Changeable score is 0.
+For each n from 1 to 4.
+    Set score to score plus n.
+Say score.

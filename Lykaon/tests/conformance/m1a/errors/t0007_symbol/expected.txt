@@ -1,0 +1,6 @@
+Error: Symbol in code. (T0007)
+Where: tests/conformance/m1a/errors/t0007_symbol/input.lykaon, line 1: Total is 2 + 3.
+                                                                                  ^
+Why: A symbol such as a bracket or an operator appears in code.
+Fix: Use words, such as 2 plus 3.
+

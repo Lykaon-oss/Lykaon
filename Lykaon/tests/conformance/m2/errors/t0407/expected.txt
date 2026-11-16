@@ -1,0 +1,12 @@
+Warning: Sentence starts in lower case. (T0022)
+Where: tests/conformance/m2/errors/t0407/input.lykaon, line 1: numbers is list of 5 and 2.
+                                                               ^
+Why: A sentence starts with a small letter.
+Fix: Run lykaon fmt.
+
+Error: A fixed name is passed to a lend to change input. (T0407)
+Where: tests/conformance/m2/errors/t0407/input.lykaon, line 5: Say pad numbers.
+                                                               ^
+Why: numbers is fixed, not Changeable.
+Fix: Make it Changeable.
+

@@ -1,0 +1,6 @@
+Error: Value crosses tasks unsafely. (T0450)
+Where: tests/conformance/m1a/errors/t0450_value_crosses_tasks/input.lykaon, line 3: Say items.
+                                                                                        ^^^^^
+Why: A value that is not given, shared and immutable, guarded or atomic goes to another task.
+Fix: Give it, share it or guard it.
+

@@ -1,0 +1,6 @@
+Error: Question with nothing to check. (T0124)
+Where: tests/conformance/m1b/errors/ch08_say_if/input.lykaon, line 2: Say if age.
+                                                                      ^
+Why: Say if has no comparison.
+Fix: Compare it with something.
+

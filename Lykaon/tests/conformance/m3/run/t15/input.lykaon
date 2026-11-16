@@ -1,0 +1,4 @@
+To double x as whole number requires x is at least 0 ensures result is at least 0.
+    Give back x times 2 as whole number.
+
+Say double 5.

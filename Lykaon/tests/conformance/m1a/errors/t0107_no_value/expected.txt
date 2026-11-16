@@ -1,0 +1,6 @@
+Error: Definition without a value. (T0107)
+Where: tests/conformance/m1a/errors/t0107_no_value/input.lykaon, line 1: Price is.
+                                                                                  ^
+Why: is has nothing after it.
+Fix: Write the value after is.
+

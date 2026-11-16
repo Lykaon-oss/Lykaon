@@ -1,0 +1,6 @@
+Error: The template welcome is missing. (T0172)
+Where: tests/conformance/m2/run_fail/t0172_template_not_found/input.lykaon, line 4: Respond with template welcome.
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: Respond with template fills the file NAME.template in the source folder; there is none.
+Fix: Write the file welcome.template next to the program.
+

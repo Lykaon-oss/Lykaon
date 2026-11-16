@@ -1,0 +1,12 @@
+Warning: Extra blank lines. (T0020)
+Where: tests/conformance/m1a/warn/t0020_extra_blank_lines/input.lykaon, line 3: 
+                                                                                ^
+Why: More than one blank line in a row.
+Fix: Run lykaon fmt.
+
+Warning: Extra blank lines. (T0020)
+Where: tests/conformance/m1a/warn/t0020_extra_blank_lines/input.lykaon, line 4: 
+                                                                                ^
+Why: More than one blank line in a row.
+Fix: Run lykaon fmt.
+

@@ -1,0 +1,6 @@
+Error: Lykaon cannot tell what kind of value spot holds. Add as and the kind, for example: as maybe number. (T0303)
+Where: tests/conformance/m1b/errors/ch17_unknown_kind/input.lykaon, line 1: Spot is missing.
+                                                                            ^^^^^^^^^^^^^^^^
+Why: Lykaon cannot work out the kind of a value.
+Fix: Add as and the kind.
+

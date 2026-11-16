@@ -1,0 +1,6 @@
+Error: Map key kind differs. (T0308)
+Where: tests/conformance/m2/errors/t0308_map_key_kind/input.lykaon, line 2: Put 1 in Ages under 5.
+                                                                                                ^
+Why: A key does not match the kind of the map.
+Fix: Use the key kind.
+

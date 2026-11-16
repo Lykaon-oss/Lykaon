@@ -1,0 +1,9 @@
+A payment is cash or card with owner as text.
+Pay is cash.
+Look at pay.
+    When cash.
+        Say paid in cash.
+    When cash.
+        Say cash again.
+    When card owner.
+        Say paid by card owner.

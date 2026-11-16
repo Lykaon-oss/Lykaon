@@ -1,0 +1,7 @@
+Age is 20.
+Member is yes.
+If age is at least 18.
+    If member is yes.
+        Say welcome back.
+    Otherwise.
+        Say please join.

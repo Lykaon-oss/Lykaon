@@ -1,0 +1,6 @@
+Error: Item 0. (T0123)
+Where: tests/conformance/m1a/errors/t0123_item_zero/input.lykaon, line 2: Say item 0 of numbers.
+                                                                              ^^^^
+Why: item 0 is written, but lists count from 1.
+Fix: Count from 1.
+

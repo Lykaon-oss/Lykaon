@@ -1,0 +1,6 @@
+Error: names was given to others and can no longer be used. (T0401)
+Where: tests/conformance/m2/errors/t0401/input.lykaon, line 3: Say names.
+                                                               ^
+Why: A name is used after its value was given away.
+Fix: Use others, or write copy of names.
+

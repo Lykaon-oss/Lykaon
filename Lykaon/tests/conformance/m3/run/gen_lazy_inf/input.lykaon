@@ -1,0 +1,7 @@
+To naturals
+    Changeable k is 1.
+    Repeat forever.
+        Hand back k.
+        Set k to k plus 1.
+
+Say first 5 of naturals.

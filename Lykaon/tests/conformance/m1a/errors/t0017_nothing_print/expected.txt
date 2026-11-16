@@ -1,0 +1,6 @@
+Error: Nothing to print. (T0017)
+Where: tests/conformance/m1a/errors/t0017_nothing_print/input.lykaon, line 1: Say.
+                                                                                 ^
+Why: Say has nothing after it.
+Fix: Write what to print.
+

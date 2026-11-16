@@ -1,0 +1,4 @@
+Changeable x is 0.
+Repeat while x is less than 3.
+    Set x to x plus 1.
+Say x.

@@ -1,0 +1,2 @@
+Error: A value of kind whole number cannot be used as a dynamic kind. (T0323)
+Fix: Only a kind that keeps the promise can convert.

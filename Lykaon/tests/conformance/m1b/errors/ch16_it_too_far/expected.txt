@@ -1,0 +1,6 @@
+Error: it means the result of the sentence just before, and the sentence before printed hello. Give the result a name. (T0220)
+Where: tests/conformance/m1b/errors/ch16_it_too_far/input.lykaon, line 4: Say it.
+                                                                          ^^^^^^^
+Why: it is used when the sentence before did not give a result.
+Fix: Name the result.
+

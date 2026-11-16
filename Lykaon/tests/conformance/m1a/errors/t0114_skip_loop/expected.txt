@@ -1,0 +1,6 @@
+Error: Skip outside a loop. (T0114)
+Where: tests/conformance/m1a/errors/t0114_skip_loop/input.lykaon, line 1: Skip.
+                                                                          ^^^^
+Why: Skip. is not inside a loop.
+Fix: Use it inside Repeat or For each.
+

@@ -1,0 +1,6 @@
+Error: price is not defined. (T0205)
+Where: tests/conformance/m1b/errors/ch66_undefined/input.lykaon, line 1: Say price plus tax.
+                                                                             ^^^^^
+Why: price is used where it is not defined.
+Fix: Define it first, or check the spelling.
+

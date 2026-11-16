@@ -1,0 +1,6 @@
+Error: A variant is made with the wrong parts. (T0315)
+Where: tests/conformance/m2/errors/t0315/input.lykaon, line 2: Pay is cash with owner Maya.
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: payment's cash is not made with its declared parts.
+Fix: Use the declared parts.
+

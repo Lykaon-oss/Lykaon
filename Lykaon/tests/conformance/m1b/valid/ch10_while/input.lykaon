@@ -1,0 +1,4 @@
+Changeable count is 1.
+Repeat while count is at most 3.
+    Say count.
+    Set count to count plus 1.

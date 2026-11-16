@@ -1,0 +1,6 @@
+Error: Comparing different kinds. (T0306)
+Where: tests/conformance/m1b/errors/t0306_comparing_kinds/input.lykaon, line 2: If age is Maya say hi.
+                                                                                ^^
+Why: A comparison puts two kinds together.
+Fix: Use one kind.
+

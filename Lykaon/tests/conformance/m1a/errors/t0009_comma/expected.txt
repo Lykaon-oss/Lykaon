@@ -1,0 +1,6 @@
+Error: Comma in code. (T0009)
+Where: tests/conformance/m1a/errors/t0009_comma/input.lykaon, line 1: Numbers is list of 5, 2.
+                                                                                          ^
+Why: A comma is used to join items.
+Fix: Join items with the word and.
+

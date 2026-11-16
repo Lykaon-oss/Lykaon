@@ -1,0 +1,6 @@
+Error: Generator mixed with Give back. (T0163)
+Where: tests/conformance/m1b/errors/t0163_generator_give_back/input.lykaon, line 1: To naturals.
+                                                                                    ^^
+Why: A function has both Hand back and Give back.
+Fix: Use one.
+

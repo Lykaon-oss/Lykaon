@@ -1,0 +1,6 @@
+Error: Contract in a one-line function. (T0161)
+Where: tests/conformance/m1b/errors/t0161_one_line_contract/input.lykaon, line 2: Requires n is at least 0.
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: A one-line function has a contract.
+Fix: Use a block function.
+

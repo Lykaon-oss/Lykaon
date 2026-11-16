@@ -1,0 +1,6 @@
+Error: Modules use each other in a circle. (T0210)
+Where: <root>/tests/conformance/m2/errors/t0210/other.lykaon, line 1: Use input.
+                                                                                                               ^^^^^^^^^^
+Why: A cycle of Use sentences never finishes loading.
+Fix: Remove one Use from the circle.
+

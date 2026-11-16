@@ -1,0 +1,24 @@
+# GitHub language statistics hygiene
+# Without linguist knowing .lykaon yet, keep the stats clean:
+# license texts, docs and logos must not pollute the language bar.
+
+# Docs are documentation, not code
+docs/** linguist-documentation
+README.md linguist-documentation
+LICENSE.md linguist-documentation
+LICENSE_POLICY.md linguist-documentation
+THIRD_PARTY.json linguist-documentation
+
+# Third-party license texts are vendored content
+LICENSES/** linguist-vendored
+
+# Logos are vendored content
+logos/** linguist-vendored
+
+# Lock files and manifests are not code
+Lykaon/Cargo.lock linguist-generated
+Lykaon/tests/conformance/**/*.txt linguist-generated
+
+# Once github/linguist accepts the Lykaon language (see docs/linguist-contribution.md),
+# add this line so every .lykaon file counts as Lykaon:
+# *.lykaon linguist-language=Lykaon

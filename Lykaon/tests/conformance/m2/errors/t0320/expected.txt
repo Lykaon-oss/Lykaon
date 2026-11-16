@@ -1,0 +1,6 @@
+Error: Look at pay does not cover card. Add a When card block. (T0320)
+Where: tests/conformance/m2/errors/t0320/input.lykaon, line 3: Look at pay.
+                                                               ^^^^^^^^^^^^
+Why: card has no When block.
+Fix: Add a When card block.
+

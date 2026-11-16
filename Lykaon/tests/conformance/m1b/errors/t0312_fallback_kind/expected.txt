@@ -1,0 +1,6 @@
+Error: fallback gives a different kind from the value. (T0312)
+Where: tests/conformance/m1b/errors/t0312_fallback_kind/input.lykaon, line 2: Say phone fallback hello.
+                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: The fallback value does not match the kind of phone.
+Fix: Use a value of the same kind.
+

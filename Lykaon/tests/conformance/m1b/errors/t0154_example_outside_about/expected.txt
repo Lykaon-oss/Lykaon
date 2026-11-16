@@ -1,0 +1,6 @@
+Error: Example outside About. (T0154)
+Where: tests/conformance/m1b/errors/t0154_example_outside_about/input.lykaon, line 1: Example doubling.
+                                                                                      ^^^^^^^
+Why: Example is not under About.
+Fix: Put it under About.
+

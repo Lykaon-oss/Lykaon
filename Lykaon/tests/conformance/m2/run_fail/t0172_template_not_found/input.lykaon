@@ -1,0 +1,4 @@
+Page home page is home.
+Serve on port 24611.
+    When someone gets home.
+        Respond with template welcome.

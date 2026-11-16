@@ -1,0 +1,6 @@
+Error: Blocked future word. (T0102)
+Where: tests/conformance/m1a/errors/t0102_blocked_future_word/input.lykaon, line 1: Class is 5.
+                                                                                    ^^^^^
+Why: A name is macro, inherit, class or await.
+Fix: Choose another name.
+

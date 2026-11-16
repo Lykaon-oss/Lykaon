@@ -1,0 +1,6 @@
+Error: Defined twice. (T0201)
+Where: tests/conformance/m1a/errors/t0201_defined_twice/input.lykaon, line 2: Price is 30.
+                                                                              ^^^^^
+Why: A name is defined again in scope.
+Fix: Use Changeable and Set.
+

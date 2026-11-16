@@ -1,0 +1,6 @@
+Test adding zero changes nothing.
+    Check for any number n.
+        Check that n plus 0 is n.
+Test impossible.
+    Check for any number n.
+        Check that n is 5.

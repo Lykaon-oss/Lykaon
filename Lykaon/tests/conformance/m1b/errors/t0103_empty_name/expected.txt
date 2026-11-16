@@ -1,0 +1,12 @@
+Warning: Sentence starts in lower case. (T0022)
+Where: tests/conformance/m1b/errors/t0103_empty_name/input.lykaon, line 1: is 5.
+                                                                           ^
+Why: A sentence starts with a small letter.
+Fix: Run lykaon fmt.
+
+Error: Empty name. (T0103)
+Where: tests/conformance/m1b/errors/t0103_empty_name/input.lykaon, line 1: is 5.
+                                                                           ^
+Why: A definition has no name.
+Fix: Write a name before is.
+

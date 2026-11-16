@@ -1,0 +1,6 @@
+Warning: Trailing spaces. (T0021)
+Where: tests/conformance/m1a/warn/t0021_trailing_spaces/input.lykaon, line 1: Say hi. 
+                                                                                     ^
+Why: A line ends with spaces.
+Fix: Run lykaon fmt.
+

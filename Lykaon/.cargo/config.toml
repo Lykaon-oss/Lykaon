@@ -1,0 +1,15 @@
+# Lykaon workspace build config.
+#
+# Windows x86-64 (the host target) needs no special linker settings.
+#
+# Linux x86-64 builds are done natively (on Linux, WSL or CI such as
+# GitHub Actions ubuntu-latest), which needs no cross-linker:
+#   rustup target add x86_64-unknown-linux-musl   (only for static builds)
+#   cargo build --release -p lykaon-rt
+#
+# Cross-building a static musl binary FROM Windows is possible by pointing
+# the linker at rust-lld inside your own toolchain, for example:
+#   [target.x86_64-unknown-linux-musl]
+#   linker = "C:/<your-rustup-home>/toolchains/stable-x86_64-pc-windows-msvc/
+#             lib/rustlib/x86_64-pc-windows-msvc/bin/rust-lld.exe"
+# (machine-specific, so it is deliberately not set here)

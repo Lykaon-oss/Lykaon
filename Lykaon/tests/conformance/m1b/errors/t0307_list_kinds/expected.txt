@@ -1,0 +1,6 @@
+Error: List items differ in kind. (T0307)
+Where: tests/conformance/m1b/errors/t0307_list_kinds/input.lykaon, line 1: Nums is list of 1 and hello.
+                                                                                   ^^^^
+Why: A list holds items of different kinds.
+Fix: Use one kind.
+

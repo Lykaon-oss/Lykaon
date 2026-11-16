@@ -1,0 +1,6 @@
+Error: Default without interface. (T0159)
+Where: tests/conformance/m1b/errors/t0159_default_no_interface/input.lykaon, line 1: By default speak says nothing.
+                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why: By default has no interface above it.
+Fix: Declare the interface first.
+

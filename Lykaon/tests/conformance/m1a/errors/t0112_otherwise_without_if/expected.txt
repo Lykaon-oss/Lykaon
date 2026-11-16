@@ -1,0 +1,6 @@
+Error: Otherwise without If. (T0112)
+Where: tests/conformance/m1a/errors/t0112_otherwise_without_if/input.lykaon, line 1: Otherwise say minor.
+                                                                                     ^^^^^^^^^^^^^^^^^^^^
+Why: Otherwise has no If at the same indentation.
+Fix: Put it right after an If.
+

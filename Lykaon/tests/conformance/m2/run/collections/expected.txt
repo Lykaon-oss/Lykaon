@@ -1,0 +1,26 @@
+5, 2 and 8
+yes
+2
+5 and 2
+8
+2 and 8
+3
+3
+5, 8 and 9
+2, 5 and 8
+8, 5 and 2
+8, 2 and 5
+3 and 4
+2
+31
+0
+yes
+Maya 31
+Omar 27
+1
+2
+1, 2, 3 and 4
+3
+1 and 2
+1
+2

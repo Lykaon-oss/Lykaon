@@ -1,0 +1,7 @@
+A person has name as text and age as number.
+Changeable maya is a person with name Maya and age 31.
+Changeable twin is copy of maya.
+Newname is Omar.
+Set name of twin to Newname.
+Say name of twin.
+Say name of maya.

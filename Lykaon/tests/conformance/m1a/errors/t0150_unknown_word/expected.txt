@@ -1,0 +1,6 @@
+Error: Unknown word. (T0150)
+Where: tests/conformance/m1a/errors/t0150_unknown_word/input.lykaon, line 1: If age is atleast 18 say adult.
+                                                                               ^
+Why: A word after the first word is not a word that the pattern allows at that place.
+Fix: Check the spelling of the word.
+

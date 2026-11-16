@@ -1,0 +1,6 @@
+Error: Give back outside a function. (T0115)
+Where: tests/conformance/m1a/errors/t0115_give_back/input.lykaon, line 1: Give back 5.
+                                                                          ^^^^^^^^^^^^
+Why: Give back is not inside a function.
+Fix: Put it inside a function block.
+

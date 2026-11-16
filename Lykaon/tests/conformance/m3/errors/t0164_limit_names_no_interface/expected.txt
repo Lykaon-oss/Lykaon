@@ -1,0 +1,6 @@
+Error: Limit names no interface. (T0164)
+Where: tests/conformance/m3/errors/t0164_limit_names_no_interface/input.lykaon, line 1: To f x as anything that can fly give back x.
+                                                                                                                    ^^^
+Why: anything that can fly where no interface fly exists
+Fix: Declare it.
+

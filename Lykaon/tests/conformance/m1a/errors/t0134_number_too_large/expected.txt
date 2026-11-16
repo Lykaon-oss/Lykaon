@@ -1,0 +1,6 @@
+Error: Number too large. (T0134)
+Where: tests/conformance/m1a/errors/t0134_number_too_large/input.lykaon, line 1: 99999999999999999999
+                                                                                 ^^^^^^^^^^^^^^^^^^^^
+Why: A whole number is larger than 64 bits.
+Fix: Write it as big number.
+

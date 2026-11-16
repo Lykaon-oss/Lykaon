@@ -1,0 +1,6 @@
+Error: Text missing. (T0016)
+Where: tests/conformance/m1a/errors/t0016_text_missing/input.lykaon, line 1: Note.
+                                                                             ^^^^
+Why: A word that takes text has none.
+Fix: Write the text after the word.
+

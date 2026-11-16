@@ -1,0 +1,6 @@
+Error: Recovery with no value. (T0152)
+Where: tests/conformance/m1b/errors/t0152_recovery_no_value/input.lykaon, line 1: Close notes.
+                                                                                  ^^^^^^^^^^^^
+Why: If that fails use follows a sentence that gives no value.
+Fix: Use Try and an If that fails block instead.
+

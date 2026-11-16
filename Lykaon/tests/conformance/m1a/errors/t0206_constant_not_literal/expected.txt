@@ -1,0 +1,12 @@
+Error: Constant is not a literal. (T0206)
+Where: tests/conformance/m1a/errors/t0206_constant_not_literal/input.lykaon, line 1: Constant limit is 5 plus 5.
+                                                                                         ^
+Why: A Constant holds a calculation.
+Fix: Use a literal.
+
+Error: Constant is not a literal. (T0206)
+Where: tests/conformance/m1a/errors/t0206_constant_not_literal/input.lykaon, line 1: Constant limit is 5 plus 5.
+                                                                                          ^
+Why: A Constant holds a calculation.
+Fix: Use a literal.
+

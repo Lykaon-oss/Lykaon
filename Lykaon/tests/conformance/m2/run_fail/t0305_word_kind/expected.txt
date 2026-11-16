@@ -1,0 +1,2 @@
+Error: Put works on maps and sets, and nums is not one. (T0305)
+Fix: Use a map or set.

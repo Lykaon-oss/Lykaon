@@ -1,0 +1,6 @@
+Error: Result kind differs. (T0317)
+Where: tests/conformance/m1b/errors/t0317_result_kind/input.lykaon, line 1: To classify n.
+                                                                               ^^^^^^^^
+Why: Branches of a function give different kinds.
+Fix: Give one kind.
+

@@ -1,0 +1,4 @@
+Phone is missing as maybe number.
+If phone is missing say no phone.
+If phone is there say has phone.
+Say phone fallback 0.

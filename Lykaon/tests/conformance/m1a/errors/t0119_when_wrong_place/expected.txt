@@ -1,0 +1,6 @@
+Error: When in the wrong place. (T0119)
+Where: tests/conformance/m1a/errors/t0119_when_wrong_place/input.lykaon, line 1: When cash.
+                                                                                 ^^^^^^^^^^
+Why: A When block is not inside Look at, a screen or a server.
+Fix: Put it under Look at.
+

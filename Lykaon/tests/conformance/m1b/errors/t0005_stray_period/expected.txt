@@ -1,0 +1,6 @@
+Error: Stray period. (T0005)
+Where: tests/conformance/m1b/errors/t0005_stray_period/input.lykaon, line 1: Price is 20. Tax is 5.
+                                                                                        ^
+Why: A period is neither at the end of a line nor between two digits.
+Fix: Write one sentence on each line.
+

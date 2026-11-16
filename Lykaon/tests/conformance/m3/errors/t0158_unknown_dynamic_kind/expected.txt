@@ -1,0 +1,6 @@
+Error: Unknown dynamic kind. (T0158)
+Where: tests\conformance\m3\errors\t0158_unknown_dynamic_kind\input.lykaon, line 1: Say 5 as any speaker.
+                                                                                                 ^^^^^^^
+Why: any speaker names no interface.
+Fix: Declare can fly.
+

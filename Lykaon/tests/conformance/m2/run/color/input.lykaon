@@ -1,0 +1,9 @@
+A color is red or green or blue.
+Shade is green.
+Look at shade.
+    When red.
+        Say warm.
+    When green.
+        Say fresh.
+    When blue.
+        Say cool.

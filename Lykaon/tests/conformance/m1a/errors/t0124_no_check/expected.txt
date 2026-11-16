@@ -1,0 +1,6 @@
+Error: Question with nothing to check. (T0124)
+Where: tests/conformance/m1a/errors/t0124_no_check/input.lykaon, line 1: Say if age.
+                                                                         ^
+Why: Say if has no comparison.
+Fix: Compare it with something.
+

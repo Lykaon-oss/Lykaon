@@ -1,0 +1,6 @@
+Error: A sentence cannot use both and and or. Split it into two sentences. (T0131)
+Where: tests/conformance/m1b/errors/ch09_mixed/input.lykaon, line 4: If x is 1 or y is 2 and z is 3 say yes.
+                                                                     ^
+Why: One sentence uses both and and or.
+Fix: Split it into two sentences.
+

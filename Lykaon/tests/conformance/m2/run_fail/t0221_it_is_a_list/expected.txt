@@ -1,0 +1,6 @@
+Error: it is used for a list. Use them. (T0221)
+Where: tests/conformance/m2/run_fail/t0221_it_is_a_list/input.lykaon, line 4: Say it.
+                                                                              ^^^^^^^
+Why: it is used for a list.
+Fix: Use them.
+

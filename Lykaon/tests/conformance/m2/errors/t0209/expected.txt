@@ -1,0 +1,6 @@
+Error: A file is used but cannot be found. (T0209)
+Where: tests/conformance/m2/errors/t0209/input.lykaon, line 1: Use nosuchmodule.
+                                                               ^^^^^^^^^^^^^^^^^
+Why: There is no file nosuchmodule.lykaon where Lykaon looks.
+Fix: Create the file, or check the spelling of the module name.
+

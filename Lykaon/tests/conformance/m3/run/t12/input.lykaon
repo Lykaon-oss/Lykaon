@@ -1,0 +1,11 @@
+Changeable x is 5.
+If x is at most 3.
+    Say small.
+Otherwise.
+    Say large.
+
+Changeable y is 2.
+If y is at most 3.
+    Say small.
+Otherwise.
+    Say large.
